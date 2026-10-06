@@ -1,0 +1,175 @@
+{
+  "date": "2026-10-06",
+  "mode": "AUDIT",
+  "decision": "CHANGE",
+  "target": "/Users/xuebai/.codex/AGENTS.md",
+  "target_sha256_before": "a1acc7690963c37f21c908421975c8b42b5a668acf5fa8a45777c4a2dfee1e42",
+  "target_sha256_after": "a1acc7690963c37f21c908421975c8b42b5a668acf5fa8a45777c4a2dfee1e42",
+  "target_unchanged": true,
+  "active_reference_created": false,
+  "original_bytes": 6935,
+  "candidate_global_bytes": 4465,
+  "candidate_reference_bytes": 3118,
+  "global_byte_reduction": 2470,
+  "applicable_body_byte_increase": 648,
+  "original_rules": 20,
+  "moved_rules": 9,
+  "verbatim_block_preserved": true,
+  "exact_rule_preservation": true,
+  "negative_integrity_checks": {
+    "missing clause": true,
+    "duplicate clause": true,
+    "weakened architecture approval": true
+  },
+  "git_apply_check_exit_code": 0,
+  "git_apply_check_scope": "temporary copy; check only; active files untouched",
+  "patch_sha256": "4f57ea7e7f2703ce91f139b9f52fb3bbfd6b3caaa646d0be84793d012550d2c9",
+  "runtime_equivalence_verified": false,
+  "actual_token_cost_latency_verified": false,
+  "prior_placement_decision_verified": "user message 2026-10-06T03:30:15.320Z",
+  "skill_structure_validation_exit_code": 0,
+  "verifier_attempts": [
+    {
+      "exit_code": 1,
+      "reason": "Verifier incorrectly normalized the exact source block trailing blank line; target untouched."
+    },
+    {
+      "exit_code": 0,
+      "reason": "Compared exact block including its trailing blank line."
+    }
+  ],
+  "audit_completion": "COMPLETE",
+  "git_root_probe_exit_code": 128,
+  "injected_rules_equal_global": true,
+  "independent_agent_scenario_runs": 0,
+  "source_manifest": {
+    "/Users/xuebai/Downloads/agent-learning-harness-v0.1-visible/skills/agents-md-editor/SKILL.md": "506f3bc2c273c8aeaf559edc2bce71c4f9c81ffd0d1a6ca23c4fea162acba81a",
+    "/Users/xuebai/Downloads/agent-learning-harness-v0.1-visible/skills/agents-md-editor/references/output-contract.md": "748dea2240d47912946d178ead8d688e604d1461c571a0c5fdb16520ff1dea7f",
+    "/Users/xuebai/.codex/skills/grilling/SKILL.md": "fa5c1e5ee76b1c8f1ae56101f52c9e239de75d5c578adc61227b92d10b7e52ef"
+  },
+  "dimension_repair_decisions": [
+    {
+      "dimension": 1,
+      "name": "Target and discovery",
+      "target": "/Users/xuebai/.codex/AGENTS.md",
+      "decision": "NO_CHANGE"
+    },
+    {
+      "dimension": 2,
+      "name": "Size and truncation",
+      "target": "/Users/xuebai/.codex/AGENTS.md",
+      "decision": "NO_CHANGE"
+    },
+    {
+      "dimension": 3,
+      "name": "Personal/project scope",
+      "target": "/Users/xuebai/.codex/AGENTS.md",
+      "decision": "NO_CHANGE"
+    },
+    {
+      "dimension": 4,
+      "name": "Goals and real examples",
+      "target": "/Users/xuebai/.codex/AGENTS.md",
+      "decision": "NO_CHANGE"
+    },
+    {
+      "dimension": 5,
+      "name": "Context placement",
+      "target": "/Users/xuebai/.codex/AGENTS.md",
+      "decision": "CHANGE"
+    },
+    {
+      "dimension": 6,
+      "name": "Proportional reading/research",
+      "target": "/Users/xuebai/.codex/AGENTS.md",
+      "decision": "NO_CHANGE"
+    },
+    {
+      "dimension": 7,
+      "name": "Research and feasibility",
+      "target": "/Users/xuebai/.codex/AGENTS.md",
+      "decision": "NO_CHANGE"
+    },
+    {
+      "dimension": 8,
+      "name": "Architecture and reuse",
+      "target": "/Users/xuebai/.codex/AGENTS.md",
+      "decision": "NO_CHANGE"
+    },
+    {
+      "dimension": 9,
+      "name": "Consequential decisions",
+      "target": "/Users/xuebai/.codex/AGENTS.md",
+      "decision": "NO_CHANGE"
+    },
+    {
+      "dimension": 10,
+      "name": "Approval boundaries",
+      "target": "/Users/xuebai/.codex/AGENTS.md",
+      "decision": "NO_CHANGE"
+    },
+    {
+      "dimension": 11,
+      "name": "Persistence and closure",
+      "target": "/Users/xuebai/.codex/AGENTS.md",
+      "decision": "NO_CHANGE"
+    },
+    {
+      "dimension": 12,
+      "name": "Testing proportionality",
+      "target": "/Users/xuebai/.codex/AGENTS.md",
+      "decision": "NO_CHANGE"
+    },
+    {
+      "dimension": 13,
+      "name": "Evidence honesty",
+      "target": "/Users/xuebai/.codex/AGENTS.md",
+      "decision": "NO_CHANGE"
+    },
+    {
+      "dimension": 14,
+      "name": "User/skill hierarchy",
+      "target": "/Users/xuebai/.codex/AGENTS.md",
+      "decision": "NO_CHANGE"
+    },
+    {
+      "dimension": 15,
+      "name": "Maintenance and enforcement",
+      "target": "/Users/xuebai/.codex/AGENTS.md",
+      "decision": "NO_CHANGE"
+    },
+    {
+      "dimension": 16,
+      "name": "Skill integration",
+      "target": "/Users/xuebai/.codex/AGENTS.md",
+      "decision": "NO_CHANGE"
+    }
+  ],
+  "separate_package_repair": {
+    "decision": "CHANGE",
+    "targets": [
+      "README.md",
+      "INSTALL.md"
+    ],
+    "applied": false
+  },
+  "summary_revision": "Explicit per-dimension repair decisions requested by user; evidence and runtime verification scope unchanged.",
+  "informative_decision_skill_update": {
+    "authorization": "now update the skill to make sure final decision is informative",
+    "changed_files": [
+      "skills/agents-md-editor/SKILL.md",
+      "skills/agents-md-editor/references/output-contract.md",
+      "evals/agents-md-editor/eval-cases.md"
+    ],
+    "hashes_after": {
+      "skills/agents-md-editor/SKILL.md": "135c3bead52d41348c2e03226cb91e018e791a10feb2d714d8a7677d9ff97b4e",
+      "skills/agents-md-editor/references/output-contract.md": "e5932ee03de59019e66f8b4207895bddce823d84378c87d22bd1fc6d0e245f85",
+      "evals/agents-md-editor/eval-cases.md": "b08d3349dd0e7a1a77dfcdb49b650b8fcb73a3a8b211797ebbd0971c1bb767a4"
+    },
+    "skill_validation_command": "codex-skill-validate skills/agents-md-editor",
+    "skill_validation_exit_code": 0,
+    "validation_scope": "structure and static instruction review; no independent model runs",
+    "additional_evaluation_cases": 5,
+    "runtime_adherence_verified": false
+  }
+}

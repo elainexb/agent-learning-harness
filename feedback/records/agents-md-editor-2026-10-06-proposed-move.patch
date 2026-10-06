@@ -1,0 +1,39 @@
+--- a/AGENTS.md
++++ b/AGENTS.md
+@@ -13,16 +13,5 @@
+ 
+-## 3. Research and Feasibility Study
++## 3–4. Research and Architecture Guidance
+ 
+-- Inspect existing code, standard libraries, and maintained open source through official documentation/repositories/source. Record packages, callable interfaces, versions, dates, and sources. Check archive/deprecation/sunset status, replacements, releases/changelogs, and maintainer responsiveness relative to maturity. Popularity/familiarity proves no maintenance; mark unverified options pending, excluding long-term recommendations.
+-- Compare minimal sufficient candidates: existing capabilities, open source with thin adaptation, and demonstrated custom gaps. Explain inapplicable options. Compare example coverage/gaps, licensing, compatibility, installation/transitive dependencies, resources, tokens/actual costs, upgrades, testing, migration, and maintenance. Keep frameworks provisional.
+-- Define hypotheses, real inputs, expected results, criteria, and boundaries before isolated end-to-end experiments. Verify content/relationships, normal/boundary/negative cases, local compatibility, resources/costs, and reuse gaps. Experimental code stays outside application pipelines; installation/downloads/calls/runs remain within authorized research.
+-- Show example/requirement → function/interface → actual evidence → gap/failure. Distinguish documented support, inspected source, local execution, feasibility conclusions, and user acceptance. Mark unmeasured capabilities unverified; explain blocked experiments and next steps.
+-- Finalize frameworks only when agreed critical paths meet confirmed criteria, limitations and failed/unverified items are evidenced, and the user confirms findings/tradeoffs. Otherwise continue research or explicitly reconfirm scope changes.
+-
+-## 4. Framework Selection and Architecture Approval
+-
+-- Select from confirmed feasibility; adding no framework is valid. Explain recommendations, gaps, applicability, and conditions for revisiting exclusions. Document all components from input to outcome with inputs, outputs, interfaces, responsibilities, acceptance, and failure handling. Obtain explicit architecture approval before implementation.
+-- Classify direct reuse, thin adaptation, business rules, and custom algorithms. Specify necessity, upstream versus owned contracts/configuration/tests, upgrade impacts, and replacement/retirement conditions. Internal functions may reference component responsibilities. Open source still needs maintenance; disclose forks, copied code, patches, and reimplementations rather than calling them thin adaptation.
+-- Custom code requires confirmed business rules, interface glue, or demonstrated gaps. First review failure evidence/interface limits, minimal implementation, maintenance cost, and configuration/composition/scope alternatives. Dependency, licensing, or maintenance objections require evidence.
+-- Reuse workflows/contracts through parameters, configuration, or necessary adapters. Explain shared/additional maintenance; test a real second input when available, otherwise mark reuse unverified. Avoid per-example programs, duplicated storage/query/validation, and speculative frameworks.
++- For tasks involving research, feasibility studies or experiments, framework/dependency evaluation or selection, architecture design, review or change, implementation or code review, custom code, or workflow or contract reuse, read `/Users/xuebai/.codex/references/research-and-architecture.md` before affected work and follow its applicable Sections 3 and 4 as mandatory parts of these rules. Apply Section 6's risk and task applicability limits; this grants no new approval. If the file is unavailable or incomplete, report it and pause dependent work while continuing independent authorized work.
+ 
+--- /dev/null
++++ b/references/research-and-architecture.md
+@@ -0,0 +1,15 @@
++## 3. Research and Feasibility Study
++
++- Inspect existing code, standard libraries, and maintained open source through official documentation/repositories/source. Record packages, callable interfaces, versions, dates, and sources. Check archive/deprecation/sunset status, replacements, releases/changelogs, and maintainer responsiveness relative to maturity. Popularity/familiarity proves no maintenance; mark unverified options pending, excluding long-term recommendations.
++- Compare minimal sufficient candidates: existing capabilities, open source with thin adaptation, and demonstrated custom gaps. Explain inapplicable options. Compare example coverage/gaps, licensing, compatibility, installation/transitive dependencies, resources, tokens/actual costs, upgrades, testing, migration, and maintenance. Keep frameworks provisional.
++- Define hypotheses, real inputs, expected results, criteria, and boundaries before isolated end-to-end experiments. Verify content/relationships, normal/boundary/negative cases, local compatibility, resources/costs, and reuse gaps. Experimental code stays outside application pipelines; installation/downloads/calls/runs remain within authorized research.
++- Show example/requirement → function/interface → actual evidence → gap/failure. Distinguish documented support, inspected source, local execution, feasibility conclusions, and user acceptance. Mark unmeasured capabilities unverified; explain blocked experiments and next steps.
++- Finalize frameworks only when agreed critical paths meet confirmed criteria, limitations and failed/unverified items are evidenced, and the user confirms findings/tradeoffs. Otherwise continue research or explicitly reconfirm scope changes.
++
++## 4. Framework Selection and Architecture Approval
++
++- Select from confirmed feasibility; adding no framework is valid. Explain recommendations, gaps, applicability, and conditions for revisiting exclusions. Document all components from input to outcome with inputs, outputs, interfaces, responsibilities, acceptance, and failure handling. Obtain explicit architecture approval before implementation.
++- Classify direct reuse, thin adaptation, business rules, and custom algorithms. Specify necessity, upstream versus owned contracts/configuration/tests, upgrade impacts, and replacement/retirement conditions. Internal functions may reference component responsibilities. Open source still needs maintenance; disclose forks, copied code, patches, and reimplementations rather than calling them thin adaptation.
++- Custom code requires confirmed business rules, interface glue, or demonstrated gaps. First review failure evidence/interface limits, minimal implementation, maintenance cost, and configuration/composition/scope alternatives. Dependency, licensing, or maintenance objections require evidence.
++- Reuse workflows/contracts through parameters, configuration, or necessary adapters. Explain shared/additional maintenance; test a real second input when available, otherwise mark reuse unverified. Avoid per-example programs, duplicated storage/query/validation, and speculative frameworks.
++

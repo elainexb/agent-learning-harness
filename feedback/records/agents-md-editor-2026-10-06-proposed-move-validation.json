@@ -1,0 +1,16 @@
+{
+  "original_bytes": 6935,
+  "reference_bytes": 3118,
+  "router_bytes": 648,
+  "proposed_global_bytes": 4465,
+  "always_loaded_bytes_saved": 2470,
+  "always_loaded_reduction_percent": 35.62,
+  "applicable_combined_body_bytes": 7583,
+  "original_rules_retained_exactly_once": 20,
+  "patch_check_command": "git apply --check candidate.patch",
+  "patch_check_exit": 0,
+  "global_target_unchanged": true,
+  "reference_target_created": false,
+  "verification_scope": "static content preservation and patch applicability; no runtime routing, token, latency or cost claim",
+  "patch_path": "/Users/xuebai/Downloads/agent-learning-harness-v0.1-visible/feedback/records/agents-md-editor-2026-10-06-proposed-move.patch"
+}

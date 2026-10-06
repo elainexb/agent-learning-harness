@@ -1,0 +1,38 @@
+{
+  "target": "/Users/xuebai/.codex/AGENTS.md",
+  "sha256_before": "a1acc7690963c37f21c908421975c8b42b5a668acf5fa8a45777c4a2dfee1e42",
+  "sha256_after": "a1acc7690963c37f21c908421975c8b42b5a668acf5fa8a45777c4a2dfee1e42",
+  "target_unchanged": true,
+  "reference_created": false,
+  "original_bytes": 6935,
+  "candidate_global_bytes": 4465,
+  "reference_bytes": 3118,
+  "original_rules_retained_exactly_once": 20,
+  "moved_rules": 9,
+  "verbatim_moved_block": true,
+  "static_negative_checks": [
+    "missing original clause rejected",
+    "duplicate original clause rejected",
+    "removed architecture approval rejected"
+  ],
+  "patch_check_command": "git apply --check /Users/xuebai/Downloads/agent-learning-harness-v0.1-visible/feedback/records/agents-md-editor-2026-10-06-proposed-move.patch",
+  "patch_check_exit": 0,
+  "skill_validation_command": "codex-skill-validate skills/agents-md-editor",
+  "skill_validation_exit": 0,
+  "runtime_routing_verified": false,
+  "token_cost_latency_verified": false,
+  "historical_preference_verified_in_user_message": "2026-10-06T03:30:15.320Z",
+  "prior_user_message": "可以，我同意你的建议",
+  "verification_attempts": [
+    {
+      "attempt": 1,
+      "exit": 1,
+      "reason": "Verification parser omitted unchanged blank-line context; no target write."
+    },
+    {
+      "attempt": 2,
+      "exit": 0,
+      "reason": "Unified diff context included; all assertions passed."
+    }
+  ]
+}
