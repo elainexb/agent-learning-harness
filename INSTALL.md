@@ -9,11 +9,11 @@ skills/agents-md-editor
 
 into:
 
-.codex/skills/
+.agents/skills/
 
 Your repository should then contain:
 
-.codex/
+.agents/
   skills/
     feedback-learning/
       SKILL.md
